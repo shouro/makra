@@ -15,6 +15,7 @@ services:
             - splash2
         volumes:
             - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+        restart: unless-stopped
 
     splash0:
         image: scrapinghub/splash:3.2
