@@ -13,7 +13,7 @@ cli-helpers==1.1.0
 Click==7.0
 configobj==5.0.6
 constantly==15.1.0
-cookiecutter==1.6.0
+cookiecutter==2.1.1
 cryptography==2.3
 cssselect==1.0.3
 decorator==4.3.0
